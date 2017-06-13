@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CID	/home/user/BSN/gateway/harCommon.py	/^CID = 42337 #dummy value now$/;"	v
+DB_DIR	/home/user/BSN/gateway/harCommon.py	/^DB_DIR = "dataBase\/"$/;"	v
+FULL_ACC	/home/user/BSN/gateway/harCommon.py	/^FULL_ACC = 16.0 $/;"	v
+FULL_GYRO	/home/user/BSN/gateway/harCommon.py	/^FULL_GYRO = 500.0 # deg\/s$/;"	v
+FULL_MAG	/home/user/BSN/gateway/harCommon.py	/^FULL_MAG = 4912$/;"	v
+ID	/home/user/BSN/gateway/harCommon.py	/^ID = np.array([CID, LHID, RHID, LFID, RFID])$/;"	v
+MAC_ACC	/home/user/BSN/gateway/harCommon.py	/^MAC_ACC = 40682$/;"	v
+MAC_ECG	/home/user/BSN/gateway/harCommon.py	/^MAC_ECG = 42398$/;"	v
+MAC_TEM	/home/user/BSN/gateway/harCommon.py	/^MAC_TEM = 40695$/;"	v
+PACKET_RATE_ACC	/home/user/BSN/gateway/harCommon.py	/^PACKET_RATE_ACC = 3$/;"	v
+PACKET_RATE_ECG	/home/user/BSN/gateway/harCommon.py	/^PACKET_RATE_ECG = 2$/;"	v
+PACKET_RATE_TEM	/home/user/BSN/gateway/harCommon.py	/^PACKET_RATE_TEM = 1$/;"	v
+SAMPLING_RATE_ACC	/home/user/BSN/gateway/harCommon.py	/^SAMPLING_RATE_ACC = 30 # Hz$/;"	v
+SAMPLING_RATE_ECG	/home/user/BSN/gateway/harCommon.py	/^SAMPLING_RATE_ECG = 32 # Hz$/;"	v
+SAMPLING_RATE_TEM	/home/user/BSN/gateway/harCommon.py	/^SAMPLING_RATE_TEM = 2  # Hz$/;"	v
+SENSORLEN	/home/user/BSN/gateway/harCommon.py	/^SENSORLEN = endIndex + ZIGBEE_OFFSET $/;"	v
+STATE_EXTENDED	/home/user/BSN/gateway/harCommon.py	/^STATE_EXTENDED = 2$/;"	v
+STATE_NORMAL	/home/user/BSN/gateway/harCommon.py	/^STATE_NORMAL = 0$/;"	v
+STATE_URGENT	/home/user/BSN/gateway/harCommon.py	/^STATE_URGENT = 1$/;"	v
+ZIGBEE_OFFSET	/home/user/BSN/gateway/harCommon.py	/^ZIGBEE_OFFSET = 8$/;"	v
+autocorr	/home/user/BSN/gateway/harCommon.py	/^def autocorr(x):$/;"	f	access:public
+chopData	/home/user/BSN/gateway/harCommon.py	/^def chopData(T, numSen):$/;"	f	access:public
+clusterWhen	/home/user/BSN/gateway/harCommon.py	/^def clusterWhen(func, ls):$/;"	f	access:public
+convertData	/home/user/BSN/gateway/harCommon.py	/^def convertData(X):$/;"	f	access:public
+convertData328	/home/user/BSN/gateway/harCommon.py	/^def convertData328(X, numSen):$/;"	f	access:public
+convertDataAcc	/home/user/BSN/gateway/harCommon.py	/^def convertDataAcc(X, numSen):$/;"	f	access:public
+convertDataEcg	/home/user/BSN/gateway/harCommon.py	/^def convertDataEcg(X, numSen):$/;"	f	access:public
+convertDataParallel	/home/user/BSN/gateway/harCommon.py	/^def convertDataParallel(X, numSen):$/;"	f	access:public
+convertDataTem	/home/user/BSN/gateway/harCommon.py	/^def convertDataTem(X, numSen):$/;"	f	access:public
+convertMatrix	/home/user/BSN/gateway/harCommon.py	/^                          65536.0\/FULL_GYRO,65536.0\/FULL_GYRO,65536.0\/FULL_GYRO])$/;"	v
+convertMatrixAcc	/home/user/BSN/gateway/harCommon.py	/^convertMatrixAcc = np.array([32768.0\/FULL_ACC, 32768.0\/FULL_ACC, 32768.0\/FULL_ACC])$/;"	v
+convertMatrixFull	/home/user/BSN/gateway/harCommon.py	/^                          1,1,1])$/;"	v
+createDatabase	/home/user/BSN/gateway/harCommon.py	/^def createDatabase(conn, table):$/;"	f	access:public
+createDatabase328	/home/user/BSN/gateway/harCommon.py	/^def createDatabase328(conn, table):$/;"	f	access:public
+createDatabase328Full	/home/user/BSN/gateway/harCommon.py	/^def createDatabase328Full(conn, table):$/;"	f	access:public
+createDatabaseAcc	/home/user/BSN/gateway/harCommon.py	/^def createDatabaseAcc(conn, table):$/;"	f	access:public
+createDatabaseAcc8	/home/user/BSN/gateway/harCommon.py	/^def createDatabaseAcc8(conn, table):$/;"	f	access:public
+createDatabaseEcg	/home/user/BSN/gateway/harCommon.py	/^def createDatabaseEcg(conn, table):$/;"	f	access:public
+createDatabaseEcg16	/home/user/BSN/gateway/harCommon.py	/^def createDatabaseEcg16(conn, table):$/;"	f	access:public
+createDatabaseTem	/home/user/BSN/gateway/harCommon.py	/^def createDatabaseTem(conn, table):$/;"	f	access:public
+dRate	/home/user/BSN/gateway/harCommon.py	/^dRate = 8$/;"	v
+distanceR	/home/user/BSN/gateway/harCommon.py	/^def distanceR(temp):$/;"	f	access:public
+endIndex	/home/user/BSN/gateway/harCommon.py	/^endIndex = (samplingRate * noSensor) \/ dRate + 1 #96 + 1 # index of sensor timestamp. last number is 48 + 1.$/;"	v
+extract_feature	/home/user/BSN/gateway/harCommon.py	/^def extract_feature(sensor, numSen):$/;"	f	access:public
+extract_feature_acc	/home/user/BSN/gateway/harCommon.py	/^def extract_feature_acc(sensor, numSen):$/;"	f	access:public
+feature_unit	/home/user/BSN/gateway/harCommon.py	/^def feature_unit(X):$/;"	f	access:public
+firstFivePeaksOfFFT	/home/user/BSN/gateway/harCommon.py	/^def firstFivePeaksOfFFT(X):$/;"	f	access:public
+get_feature	/home/user/BSN/gateway/harCommon.py	/^def get_feature(S, numSen):$/;"	f	access:public
+get_feature_acc	/home/user/BSN/gateway/harCommon.py	/^def get_feature_acc(S, numSen, numLabel):$/;"	f	access:public
+groupBy	/home/user/BSN/gateway/harCommon.py	/^def groupBy(func, array):$/;"	f	access:public
+hStackArray	/home/user/BSN/gateway/harCommon.py	/^def hStackArray(data, add):$/;"	f	access:public
+img	/home/user/BSN/gateway/harCommon.py	/^        '..\/picture\/walking.png', '..\/picture\/standing.png'] $/;"	v
+lastIndex	/home/user/BSN/gateway/harCommon.py	/^lastIndex = endIndex + 2 # 27$/;"	v
+magnitude	/home/user/BSN/gateway/harCommon.py	/^def magnitude(x, y, z):$/;"	f	access:public
+noActivities	/home/user/BSN/gateway/harCommon.py	/^noActivities = 5$/;"	v
+noFullSensor	/home/user/BSN/gateway/harCommon.py	/^noFullSensor = 9$/;"	v
+noSensor	/home/user/BSN/gateway/harCommon.py	/^noSensor = noFullSensor $/;"	v
+num	/home/user/BSN/gateway/harCommon.py	/^num = 0$/;"	v
+packetWindow	/home/user/BSN/gateway/harCommon.py	/^packetWindow = dRate * windowSize$/;"	v
+peakDetect	/home/user/BSN/gateway/harCommon.py	/^def peakDetect(ls, delta, x = None):$/;"	f	access:public
+readLastTime	/home/user/BSN/gateway/harCommon.py	/^def readLastTime(cursor, table, i):$/;"	f	access:public
+readLastTime2	/home/user/BSN/gateway/harCommon.py	/^def readLastTime2(cursor, table, i, systemtime):$/;"	f	access:public
+readSensorData	/home/user/BSN/gateway/harCommon.py	/^def readSensorData(cursor, table, i, st):$/;"	f	access:public
+readSensorData2	/home/user/BSN/gateway/harCommon.py	/^def readSensorData2(cursor, table, i, t):$/;"	f	access:public
+readSensorDataAcc	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataAcc(cursor, table, starttime, endtime):$/;"	f	access:public
+readSensorDataAccFull	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataAccFull(cursor, table):$/;"	f	access:public
+readSensorDataAccTrain	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataAccTrain(cursor, table):$/;"	f	access:public
+readSensorDataCLF	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataCLF(cursor, table, i):$/;"	f	access:public
+readSensorDataCLF328	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataCLF328(cursor, table, i):$/;"	f	access:public
+readSensorDataCLF328Full	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataCLF328Full(cursor, table, i):$/;"	f	access:public
+readSensorDataEcg	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataEcg(cursor, table, starttime, endtime):$/;"	f	access:public
+readSensorDataTem	/home/user/BSN/gateway/harCommon.py	/^def readSensorDataTem(cursor, table, starttime, endtime):$/;"	f	access:public
+readStartTime	/home/user/BSN/gateway/harCommon.py	/^def readStartTime(cursor, table, i):$/;"	f	access:public
+readStartTime2	/home/user/BSN/gateway/harCommon.py	/^def readStartTime2(cursor, table, i, systemtime):$/;"	f	access:public
+recursiveVStack	/home/user/BSN/gateway/harCommon.py	/^def recursiveVStack(X, f = lambda x:x):$/;"	f	access:public
+roundUpRawData	/home/user/BSN/gateway/harCommon.py	/^def roundUpRawData(X):$/;"	f	access:public
+roundUpRawDataBySysTime	/home/user/BSN/gateway/harCommon.py	/^def roundUpRawDataBySysTime(X):$/;"	f	access:public
+roundUpRawDataTrain	/home/user/BSN/gateway/harCommon.py	/^def roundUpRawDataTrain(X):$/;"	f	access:public
+samplingRate	/home/user/BSN/gateway/harCommon.py	/^samplingRate = 32 # 32 or 64Hz$/;"	v
+slidingWindow	/home/user/BSN/gateway/harCommon.py	/^def slidingWindow(sequence, winSize, step):$/;"	f	access:public
+span	/home/user/BSN/gateway/harCommon.py	/^def span(func, ls):$/;"	f	access:public
+splitWhen	/home/user/BSN/gateway/harCommon.py	/^def splitWhen(func, ls):$/;"	f	access:public
+startIndex	/home/user/BSN/gateway/harCommon.py	/^startIndex = 1$/;"	v
+updateSensorData	/home/user/BSN/gateway/harCommon.py	/^def updateSensorData(conn, table, data):$/;"	f	access:public
+updateSensorData328	/home/user/BSN/gateway/harCommon.py	/^def updateSensorData328(conn, table, data):$/;"	f	access:public
+updateSensorData328Full	/home/user/BSN/gateway/harCommon.py	/^def updateSensorData328Full(conn, table, data):$/;"	f	access:public
+updateSensorDataAcc	/home/user/BSN/gateway/harCommon.py	/^def updateSensorDataAcc(conn, table, data):$/;"	f	access:public
+updateSensorDataAcc32	/home/user/BSN/gateway/harCommon.py	/^def updateSensorDataAcc32(conn, table, data):$/;"	f	access:public
+updateSensorDataEcg	/home/user/BSN/gateway/harCommon.py	/^def updateSensorDataEcg(conn, table, data):$/;"	f	access:public
+updateSensorDataEcg16	/home/user/BSN/gateway/harCommon.py	/^def updateSensorDataEcg16(conn, table, data):$/;"	f	access:public
+updateSensorDataTem	/home/user/BSN/gateway/harCommon.py	/^def updateSensorDataTem(conn, table, data):$/;"	f	access:public
+vStackArray	/home/user/BSN/gateway/harCommon.py	/^def vStackArray(data, add):$/;"	f	access:public
+vStackArrays	/home/user/BSN/gateway/harCommon.py	/^def vStackArrays(data, add, maxSize):$/;"	f	access:public
+windowSize	/home/user/BSN/gateway/harCommon.py	/^windowSize = 2 # 2s is a window size$/;"	v
